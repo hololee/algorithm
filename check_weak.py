@@ -49,3 +49,7 @@ for i in range(len(dist)):
         searching_field.append(splited)
     print(searching_field)
     print("====================================\r\n")
+    
+    """ searching_field 에서 2가지 조함부터 체크해서 answer 1씩 늘리기.
+        마지막 반복에서 만약 큰 순서대로 len(dist) 의 조건을 만족시키지 못하면 -1 리턴 
+    """
